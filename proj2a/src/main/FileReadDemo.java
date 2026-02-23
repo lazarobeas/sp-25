@@ -2,7 +2,7 @@ package main;
 
 import edu.princeton.cs.algs4.In;
 
-import static utils.Utils.*;
+import static utils.Utils.SHORT_WORDS_FILE;
 
 public class FileReadDemo {
     public static void main(String[] args) {

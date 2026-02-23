@@ -1,14 +1,12 @@
 import ngrams.NGramMap;
 import ngrams.TimeSeries;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import static utils.Utils.*;
 import static com.google.common.truth.Truth.assertThat;
+import static utils.Utils.*;
 
 /** Unit Tests for the NGramMap class.
  *  @author Josh Hug

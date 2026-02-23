@@ -1,7 +1,7 @@
 package utils;
 
-import java.util.Random;
 import java.util.List;
+import java.util.Random;
 
 /**
  * A library of static methods to generate pseudo-random numbers from

@@ -2,9 +2,6 @@ package ngrams;
 
 import java.util.Collection;
 
-import static ngrams.TimeSeries.MAX_YEAR;
-import static ngrams.TimeSeries.MIN_YEAR;
-
 /**
  * An object that provides utility methods for making queries on the
  * Google NGrams dataset (or a subset thereof).

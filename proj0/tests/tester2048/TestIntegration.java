@@ -2,11 +2,7 @@ package tester2048;
 
 import game2048rendering.Side;
 import jh61b.grader.GradedTest;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
-import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.*;
 
 import static tester2048.TestUtils.checkTilt;
 

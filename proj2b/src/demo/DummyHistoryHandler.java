@@ -3,8 +3,8 @@ package demo;
 import browser.NgordnetQuery;
 import browser.NgordnetQueryHandler;
 import ngrams.TimeSeries;
-import plotting.Plotter;
 import org.knowm.xchart.XYChart;
+import plotting.Plotter;
 
 import java.util.ArrayList;
 

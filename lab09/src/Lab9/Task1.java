@@ -1,8 +1,6 @@
 package Lab9;
 
-import tileengine.TERenderer;
 import tileengine.TETile;
-import tileengine.Tileset;
 
 /**
  * Draws a world initially full of trees.

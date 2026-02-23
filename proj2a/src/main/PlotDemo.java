@@ -2,11 +2,13 @@ package main;
 
 import ngrams.NGramMap;
 import ngrams.TimeSeries;
-import plotting.Plotter;
 import org.knowm.xchart.XYChart;
+import plotting.Plotter;
 
-import static utils.Utils.*;
 import java.util.ArrayList;
+
+import static utils.Utils.TOP_14337_WORDS_FILE;
+import static utils.Utils.TOTAL_COUNTS_FILE;
 
 public class PlotDemo {
     public static void main(String[] args) {

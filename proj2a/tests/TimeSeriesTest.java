@@ -1,9 +1,7 @@
 import ngrams.TimeSeries;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static com.google.common.truth.Truth.assertThat;

@@ -1,6 +1,3 @@
-import edu.princeton.cs.algs4.WeightedQuickUnionUF;
-
-
 public class Percolation {
     // TODO: Add any necessary instance variables.
 

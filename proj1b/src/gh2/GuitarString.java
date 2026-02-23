@@ -1,7 +1,5 @@
 package gh2;
 
-import deque.Deque61B;
-
 // TODO: maybe more imports
 
 //Note: This file will not compile until you complete the Deque61B implementations

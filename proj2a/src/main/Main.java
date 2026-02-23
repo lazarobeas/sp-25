@@ -1,8 +1,7 @@
 package main;
-import static utils.Utils.*;
-import org.slf4j.LoggerFactory;
+
 import browser.NgordnetServer;
-import ngrams.NGramMap;
+import org.slf4j.LoggerFactory;
 
 public class Main {
     static {
