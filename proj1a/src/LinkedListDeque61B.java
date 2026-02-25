@@ -88,15 +88,17 @@ public class LinkedListDeque61B<T> implements Deque61B<T> {
 
     @Override
     public T get(int index) {
-        T saveItem;
         if (size == 0) {
             return null;
         }
 
-
-
-
-        return saveItem;
+        Node temp = sentinel.next;
+        int idx = 0;
+        while (idx != index) {
+            idx++;
+            temp = temp.next;
+        }
+        return temp.item;
     }
 
     @Override

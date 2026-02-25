@@ -1,4 +1,5 @@
 import jh61b.utils.Reflection;
+import org.checkerframework.checker.units.qual.A;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -123,16 +124,25 @@ public class LinkedListDeque61BTest {
         lld1.removeLast();
         assertThat(lld1.toList()).containsExactly(0,1).inOrder();
     }
-
+    
     @Test
     public void getSecondElem() {
          Deque61B<String> lld1 = new LinkedListDeque61B<>();
-
+         
          lld1.addFirst("I");
          lld1.addLast("Love");
          lld1.addLast("Titties");
+         
+         assertThat(lld1.get(1).equals("Titties"));
+    }
 
-         assertThat(lld1.get(1).equals("Love"));
+    @Test
+    public void getEmptyElemReturnNull() {
+         Deque61B<String> lld1 = new LinkedListDeque61B<>();
+
+         assertThat(lld1.get(0) == null);
+         assertThat(lld1.get(5) == null);
+
     }
 
 
